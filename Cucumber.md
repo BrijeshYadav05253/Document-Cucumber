@@ -155,5 +155,205 @@ Behaviour-driven Development (BDD) is a software development technique that has 
 * Cucumber framework uses Gherkin ( A simple plain text language parser) to describe expected software behaviors logically, resulting in better communication and collaboration among technical and non-technical team members.
 
 * Cucumber is compatible with popular software platforms like Selenium, Watir, Ruby, and others.
-  
+
 * One must also consider the limitations before deciding on the behavior-driven development approach.
+
+  # Pre-requisites
+
+  * Visual Studio code install
+  * Node.js and npm (Node Package Manager) installed
+ 
+ # Environment
+
+PRETTY_NAME="Ubuntu 22.04.3 LTS"
+<br>
+NAME="Ubuntu"
+<br>
+VERSION_ID="22.04"
+<br>
+VERSION="22.04.3 LTS (Jammy Jellyfish)"
+<br>
+VERSION_CODENAME=jammy
+<br>
+ID=ubuntu
+<br>
+ID_LIKE=debian
+<br>
+HOME_URL="https://www.ubuntu.com/"
+<br>
+SUPPORT_URL="https://help.ubuntu.com/"
+<br>
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+<br>
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+<br>
+UBUNTU_CODENAME=jammy
+
+
+# instalation Of VS Code
+
+* there are two method of insatling vs code in Ubantu Linux
+
+* Method 1: Using .deb package
+
+### Download the .deb package:
+
+   * Visit the VS Code download page and download the .deb package for Debian/Ubuntu.
+
+   ### Install the package:
+
+   * Open the folder where the package is downloaded. And then open the terminal inside the folder and run the blow command.
+     <br>
+```
+   $ sudo apt install ./(FileName).deb
+```
+* After complition of installation open the VS Code by command given below.
+
+```
+$ code .
+```
+
+# Installation of node.js
+
+* installing Node.js by using command
+  ```
+  $ sudo snap install node --classic
+  ```
+
+<br>
+
+ # 1. Install Cucumber Language Support:
+
+ ### 2. Open Visual Studio Code.
+
+
+* Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of
+the window.
+
+* Search for & Cucumber (Gherkin) Full Support or a similar extension for Cucumber support.
+  
+* Install the extension.
+
+### 2. Create a New Feature File:
+* In your Visual Studio Code workspace, create a new feature file with the .feature
+extension (e.g., my.feature). You can do this by right-clicking on your project directory
+and selecting New File.
+
+### 3. Write Gherkin Scenarios:
+* Inside your feature file, write your Gherkin scenarios. For example:
+
+Feature: My Feature
+
+Scenario: My Scenario<br>
+Given I have some precondition<br>
+When I perform some action<br>
+Then I should see some result<br>
+
+### 4. Install Cucumber Step Definition Generator
+
+* Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of
+the window.
+
+* Search for Cucumber Step Definition Generator .
+* Install the extension.
+
+### 5.Change the settings in step definitions generator
+* Access the settings and search for Step Definition Generator.
+Modify the desired setting value.<br>
+Save the updated settings.
+
+* "Step-definition-generator:Runner"<br>
+The testing framework used for step definitions: cypress
+
+* "Step-definition-generator:language"<br>
+The programing language used for step definitions:typescript
+
+* "step-definition-generator.arrow": true,
+
+* "step-definition-generator.async": false
+
+### 6.Generate a step definition using Cucumber Step Definitions Generator extension:
+* The extension can automatically create a new file for the step definition when you generate it.
+To do this, click an icon in the Editor Actions menu .<br>
+The extension can also generate the step definition and copy it to the clipboard, which makes it
+easy to access and paste into the appropriate file. To use this option, you can again right-click
+on the feature file or click an icon in the Editor Actions menu.
+
+
+* import { Given, When, Then, DataTable } from '@badeball/cypress-cucumber-preprocessor';<br><br>
+Given(`I have some precondition`, () => {<br>
+// [Given] Sets up the initial state of the system.<br>
+});<br><br>
+When(`I perform some action`, () => {<br>
+// [When] Describes the action or event that triggers the scenario.<br>
+});<br><br>
+Then(`I should see some result`, () => {<br>
+// [Then] Describes the expected outcome or result of the scenario.<br>
+});
+
+### Before Generating Step Definition Install the Package:
+
+* Make sure you have installed the @badeball/cypress-cucumber-preprocessor package. Run the following command in your project directory:
+
+```
+npm install --save-dev @badeball/cypress-cucumber-preprocessor
+
+```
+
+### Type Declarations:
+
+* If TypeScript is being used in your project, ensure that the required type declarations are installed. You can install the TypeScript types for this package by running:
+
+```
+npm install --save-dev @types/cypress-cucumber-preprocessor
+```
+
+
+
+# Examples of scenarios.
+
+* Adding two numbers
+  
+  Feature: Addition
+
+
+    Scenario: Adding two number
+
+    Given I have first numbers<br>
+    And I have Second number<br>
+    When When i add the two number<br>
+    Then I should see some result<br>
+
+    ### The output should be 
+
+    
+  ```
+
+  import { Given, When, Then, DataTable } from '@badeball/cypress-cucumber-preprocessor';
+   const assert = require('assert');
+
+
+   let firstNumber;
+   let secondNumber;
+   let result;
+
+   Given('I have the first number as {int}', (a) => {
+   console.log("Enter the first Number a");
+   firstNumber = a;
+   });
+
+   Given('I have the second number as {int}', (b) => {
+    console.log("Enter the first Number b");
+    secondNumber = b;
+   });
+
+  When('I add the numbers', () => {
+  result = firstNumber + secondNumber;
+  console.log("The Result" +result)
+  });
+
+  Then('the result should be {int}', (expectedResult) => {
+  assert.strictEqual(result, expectedResult);
+  });
+
+    ```
