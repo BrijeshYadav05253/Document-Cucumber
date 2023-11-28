@@ -16,7 +16,7 @@
 
 [Ghrekin Scenarios](#ghrekin-scenarios)
 
-[These are the keyword used to write the case in feature file(Ghrekin Scenarios)](#these-are-the-keyword-used-to-write-the-case-in-feature-fileghrekin-scenarios)
+[These are the keywords used to write the case in the feature file(Gherkin Scenarios)](#these-are-the-keyword-used-to-write-the-case-in-feature-fileghrekin-scenarios)
 
 [Benefits of BDD in Cucumber Framework](#benefits-of-bdd-in-cucumber-framework)
 
@@ -28,7 +28,7 @@
 
 [Environment](#environment)
 
-[installation Of VS Code](#installation-of-vs-code)
+[Installation Of VS Code](#installation-of-vs-code)
 
 [Installation of node.js](#installation-of-nodejs)
 
@@ -80,7 +80,7 @@ Contains the actual code written by the developer
 
 # How does Cucumber work?
 
-Cucumber BDD framework mainly consists of three major parts:
+The Cucumber BDD framework mainly consists of three major parts:
 
 **1-Feature File**
 <br>
@@ -103,7 +103,7 @@ Behaviour-driven Development (BDD) is a software development technique that has 
 
 # Ghrekin Scenarios
 
-* Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Each keyword is translated to many spoken languages; in this reference we’ll use English.
+* Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Each keyword is translated to many spoken languages; in this reference, we’ll use English.
 
 * Most lines in a Gherkin document start with one of the keywords.
 
@@ -113,7 +113,7 @@ Behaviour-driven Development (BDD) is a software development technique that has 
 
 * Either spaces or tabs may be used for indentation. The recommended indentation level is two spaces. 
 
-# These are the keyword used to write the case in feature file(Ghrekin Scenarios)
+# These are the keywords used to write the case in the feature file(Gherkin Scenarios)
 
 * **Feature Keyword:** The feature file starts with the keyword Feature. Under feature, you can mention the feature name which is to be tested.
  <br>
@@ -159,7 +159,8 @@ Behaviour-driven Development (BDD) is a software development technique that has 
   
 # The below image describes a simple BDD operation –
 
-![Alt text](image.png)
+![image](https://github.com/BrijeshYadav05253/Document-Cucumber/assets/138758351/4e6e269a-48cd-4b68-b209-8698d3bda88a)
+
 
 
 
