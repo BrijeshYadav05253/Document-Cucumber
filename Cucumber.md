@@ -1,5 +1,43 @@
 ![Cucumber](https://github.com/BrijeshYadav05253/BrijeshYadav05253/assets/138758351/595d2841-7094-4ddb-a87a-daf9e6fda645)
 
+# Table of Content
+
+
+
+[Overview](#overview)
+
+[Cucumber Framework](#cucumber-framework)
+
+[Uses of Cucumber Framework in different fields](#uses-of-cucumber-framework-in-different-fields)
+
+[Benefits of using Cucumber Testing Tools](#benefits-of-using-cucumber-testing-tools)
+
+[How does Cucumber work?](#how-does-cucumber-work)
+
+[Ghrekin Scenarios](#ghrekin-scenarios)
+
+[These are the keyword used to write the case in feature file(Ghrekin Scenarios)](#these-are-the-keyword-used-to-write-the-case-in-feature-fileghrekin-scenarios)
+
+[Benefits of BDD in Cucumber Framework](#benefits-of-bdd-in-cucumber-framework)
+
+[The below image describes a simple BDD operation –](#the-below-image-describes-a-simple-bdd-operation-–)
+
+[Limitations of Behavior-driven development](#limitations-of-behavior-driven-development)
+
+[Pre-requisites](#pre-requisites)
+
+[Environment](#environment)
+
+[installation Of VS Code](#installation-of-vs-code)
+
+[Installation of node.js](#installation-of-nodejs)
+
+[Examples of scenarios](#examples-of-scenarios)
+
+
+
+
+
 # Overview
 
 * Cucumber is an open-source software testing tool written in Ruby. Cucumber enables you to write test cases that anyone can easily understand regardless of their technical knowledge.
@@ -190,11 +228,11 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=jammy
 
 
-# instalation Of VS Code
+# installation Of VS Code
 
-* there are two method of insatling vs code in Ubantu Linux
+* there are many method of insatlling vs code in Ubantu Linux one is given below
 
-* Method 1: Using .deb package
+*  Using .deb package
 
 ### Download the .deb package:
 
@@ -202,7 +240,7 @@ UBUNTU_CODENAME=jammy
 
    ### Install the package:
 
-   * Open the folder where the package is downloaded. And then open the terminal inside the folder and run the blow command.
+   * Open the folder where the package is downloaded. And then open the terminal inside the folder and run the below command.
      <br>
 ```
    $ sudo apt install ./(FileName).deb
@@ -338,12 +376,12 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
    let result;
 
    Given('I have the first number as {int}', (a) => {
-   console.log("Enter the first Number a");
+   console.log("Enter the first Number a") ;
    firstNumber = a;
    });
 
    Given('I have the second number as {int}', (b) => {
-    console.log("Enter the first Number b");
+    console.log("Enter the second Number b" );
     secondNumber = b;
    });
 
@@ -357,3 +395,17 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
   });
 
     ```
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
