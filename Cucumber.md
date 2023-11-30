@@ -402,6 +402,7 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
     ```
     path/to/your/feature/file.feature
     ```
+     Replace this with the actual path to your feature file. This command will execute the tests defined in the specified feature file.
 
 
 
