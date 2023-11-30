@@ -397,6 +397,12 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
 
     ```
 
+  * To run the feature file run the below command
+ 
+    ```
+    path/to/your/feature/file.feature
+    ```
+
 
 
 
