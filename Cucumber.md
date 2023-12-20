@@ -20,7 +20,7 @@
 
 [Benefits of BDD in Cucumber Framework](#benefits-of-bdd-in-cucumber-framework)
 
-[The below image describes a simple BDD operation –](#the below image describes a simple BDD operation –)
+[The below image describes a simple BDD operation –](#the-below-image-describes-a-simple-bdd-operation-–)
 
 [Limitations of Behavior-driven development](#limitations-of-behavior-driven-development)
 
@@ -125,7 +125,6 @@ Using Cucumber for Automation in Behavior-Driven Development (BDD) means writing
 # These are the keywords used to write the case in the feature file
 
 * **Feature Keyword:** The feature file starts with the keyword Feature. Under feature, you can mention the feature name which is to be tested.
- <br>
 
 * **Scenario Keyword:** There can be more than one scenario under one feature file, and each scenario starts with the keyword Scenario, followed by the scenario name.
 
