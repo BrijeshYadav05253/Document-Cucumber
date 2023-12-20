@@ -8,7 +8,7 @@
 
 [Cucumber Framework](#cucumber-framework)
 
-[Uses of Cucumber Framework in different fields](#uses-of-cucumber-framework-in-different-fields)
+[Cucumber Framework Uses In Various fields](#cucumber Framework Uses In Various fields)
 
 [Benefits of using Cucumber Testing Tools](#benefits-of-using-cucumber-testing-tools)
 
