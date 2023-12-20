@@ -20,7 +20,7 @@
 
 [Benefits of BDD in Cucumber Framework](#benefits-of-bdd-in-cucumber-framework)
 
-[The below image describes a simple BDD operation –](#the-below-image-describes-a-simple-bdd-operation-–)
+[The below image describes a simple BDD operation –](#the below image describes a simple BDD operation –)
 
 [Limitations of Behavior-driven development](#limitations-of-behavior-driven-development)
 
