@@ -40,22 +40,27 @@
 
 # Overview
 
-* Cucumber is an open-source software testing tool written in Ruby. Cucumber enables you to write test cases that anyone can easily understand regardless of their technical knowledge.
-  
-* Cucumber Framework executes automated acceptance tests written in the “Gherkin” language. Gherkin is a domain-specific language for behavior descriptions. Gherkin is business-readable.
+* Cucumber is a free tool for testing computer software. It uses a language that is easy for everyone to understand, even if they don't know much about technology. With Cucumber, you can write tests that describe how the software should behave. This helps people like developers, testers, and others work together better.
+*  The language Cucumber uses is called Gherkin, and it uses words like "Given," "When," "Then," "And," and "But" to explain each step in a test. Cucumber is good for different types of teams because it lets everyone be part of creating and maintaining tests.
+*  The tests are written in a programming language like Ruby, and they can be connected to other testing tools. Cucumber helps make sure that the software does what it's supposed to do, and the tests can also be used as a type of living document to understand how the software works.
 
 #  Cucumber Framework
 
 **1-Feature file** 
 
-Contains code written in Gherkin (plain English text)
+Feature files contain code written in the Gherkin language, which is a simple form of the English language. Gherkin is designed to be easily understood by both technical and non-technical person.
 
 **2-Step definition file** 
 
-Contains the actual code written by the developer
+A step definition file is a simple file in which developers write the actual code.
 
-# Uses of Cucumber Framework in different fields
+# Cucumber Framework Uses In Various fields
 
+Here are some common uses of the Cucumber framework in different domains:
+
+1-Software Testing<br>
+2-API Testing<br>
+3-Continuous Integration/Delivery (CI/CD)
 
 ### Cucumber acts as a bridge between the following teams:
 
@@ -67,15 +72,25 @@ Contains the actual code written by the developer
 
 # Benefits of using Cucumber Testing Tools
 
-* Involving stakeholders becomes easier regardless of their programming knowledge.
-  
+### Working Together Easily:
 
-* Testers can write Test scripts without having in-depth knowledge of programming
- * Plugins are faster as compared to Selenium
-* Supports various programming languages
-* Code can be reused
-* Simple and quick setup
-*Flexible with different software platforms like Selenium, Ruby on Rails, Watir, Spring framework, and so forth.
+Cucumber helps different team members, like developers and testers, work together better. It uses simple language that everyone can understand.
+
+### Tests Are Easy to Read:
+
+Test scenarios written in Cucumber are easy to read because they use plain English. This helps everyone on the team understand what the tests are doing.
+
+### Automation Made Possible:
+
+Cucumber lets you automate tests. This means that once you write a test, a computer can run it many times to check if the software is working correctly.
+
+### Team Collaboration:
+
+Cucumber brings teams together by providing a language that everyone can use to express ideas. It breaks down barriers between different roles in the team.
+
+### Reusing Test Steps:
+
+With Cucumber, you can use the same steps in different tests. This helps reduce repetition and makes it easier to manage tests.
 
 
 # How does Cucumber work?
@@ -84,8 +99,9 @@ The Cucumber BDD framework mainly consists of three major parts:
 
 **1-Feature File**
 <br>
-Cucumber tests are written in plain text files called feature files stored with the extension – “.feature”. A Feature File can be described to make the documentation more legible. These files describe the behavior and functionality of the software using a specific syntax called Gherkin. Gherkin is a structured language that uses keywords like Given, When, and Then to define the steps of a test scenario.
-
+A feature file is like a storybook for a computer program. It's a place where you write down what you want the program to do in a way that both people and computers can understand.
+<br>
+The special thing about a feature file is that it's written in a language called Gherkin, which is super simple and looks like plain English. This makes it easy for everyone on the team, even those who don't know much about programming, to understand what the program is supposed to do.
 
 **2-Step Definitions** 
 <br>
@@ -93,27 +109,20 @@ Each step in a feature file is associated with a step definition implemented in 
 
 **3-Test Runner File** 
 
-In Cucumber, the test runner file executes the Cucumber feature files and coordinates the steps defined in those feature files with the corresponding step definitions.
+The test runner file makes sure that the actions in the feature files happen the way they're supposed to by coordinating with the step definitions.
 
-### BDD in Cucumber Automation
+## BDD in Cucumber Automation
 <br>
-Behaviour-driven Development (BDD) is a software development technique that has evolved from TDD (Test Driven Development), which is an approach or programming practice where the developers write new code only when the automated test case fails.
-
+Using Cucumber for Automation in Behavior-Driven Development (BDD) means writing tests in a way that's easy for everyone to understand. You describe how you want the software to behave using simple language (Gherkin). Cucumber then turns these descriptions into actual tests that a computer can run. This helps teams work together, understand requirements, and create documentation that stays up-to-date.
+<br>
 <br>
 
 # Ghrekin Scenarios
 
-* Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Each keyword is translated to many spoken languages; in this reference, we’ll use English.
 
-* Most lines in a Gherkin document start with one of the keywords.
+* Gherkin, the language for writing test scenarios, uses special keywords for structure. Lines typically start with keywords, allow comments, and recommend two-space indentation.
 
-* Comments are only permitted at the start of a new line, anywhere in the feature file. They begin with zero or more spaces, followed by a hash sign (#) and some text.
-
-* Block comments are currently not supported by Gherkin.
-
-* Either spaces or tabs may be used for indentation. The recommended indentation level is two spaces. 
-
-# These are the keywords used to write the case in the feature file(Gherkin Scenarios)
+# These are the keywords used to write the case in the feature file
 
 * **Feature Keyword:** The feature file starts with the keyword Feature. Under feature, you can mention the feature name which is to be tested.
  <br>
@@ -132,28 +141,10 @@ Behaviour-driven Development (BDD) is a software development technique that has 
 
 * **Background Keyword:** If there is any repetitive step that is going to be used in every test case. We just add the repetitive step under Keyword Background. Step keep under Background would be run before every test case.
 
-### Consider the example below for a better understanding:
-<br>
-
-**Given** the user has entered invalid credentials
-<br>
-
-**When** the user clicks the submit button
-<br>
-
-**Then** display the proper validation message
-
-
 # Benefits of BDD in Cucumber Framework
 <br>
 
-* Focuses on defining ‘behavior’ rather than defining ‘tests’.
-  
-* Enhances communication among the members of a cross-functional product team.
-
-* Helps reach a wider audience by the usage of non-technical language.
-  
-* It enables you to understand how the system should perform from the developer’s and customer’s perspective.
+* BDD with Cucumber is about describing how the software should behave, not just writing tests. It's like telling a story of what you want the software to do, making sure everyone understands and agrees on how it should work.
   
 * The improvement in the quality of code results in reduced costs of maintenance and also minimizes the project’s associated risks.
   
@@ -169,33 +160,17 @@ Behaviour-driven Development (BDD) is a software development technique that has 
 
 * Testers must have prior experience in TDD (Test-driven Development) to work in BDD.
 
-
 * BDD approach may be ineffective if the requirements are not correctly analyzed.
   
 * Testers must have sufficient technical skills.
 
 ### Cucumber with Selenium
-* Many organizations prefer the Selenium framework for cross-browser compatibility testing. These organizations also prefer integrating Cucumber with Selenium as it makes it easier to read and understand the flow of applications among the members of different teams. Gherkin syntax involves simple and plain text, which makes it easier to understand test cases.
+* Teams write test scenarios in Gherkin syntax using Cucumber, describing the behavior of a web application.
+* These scenarios are then connected to automation code, often written in a programming language like Java or Ruby.
+* Selenium is used in this code to simulate user interactions with the web application, such as clicking buttons, filling forms, and verifying results.
+* When the automated tests run, Cucumber interprets the Gherkin scenarios, and Selenium performs the actions on the web application, checking if it behaves as expected.
 
-* Running the Cucumber Selenium tests on real browsers and devices is essential.
 
-* BrowserStack cloud testing supports Selenium testing with Cucumber; sign up, choose the required device-browser-OS combination, and start testing websites.
-  
-* With BrowserStack Test Management, teams can upload BDD-JSON based report upload using Cucumber. This enables you to sync test case reports on BrowserStack Test Management from your terminal.
-
-### Summary
-
-* The Cucumber testing tool is a purely business-driven development tool written in Ruby.
-  
-* The business-driven development approach is an advancement over the test-driven development approach, which follows the
-  
-* ‘Given-When-Then’ steps for writing test cases
-  
-* Cucumber framework uses Gherkin ( A simple plain text language parser) to describe expected software behaviors logically, resulting in better communication and collaboration among technical and non-technical team members.
-
-* Cucumber is compatible with popular software platforms like Selenium, Watir, Ruby, and others.
-
-* One must also consider the limitations before deciding on the behavior-driven development approach.
 
   # Pre-requisites
 
@@ -403,17 +378,3 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
     path/to/your/feature/file.feature
     ```
      Replace this with the actual path to your feature file. This command will execute the tests defined in the specified feature file.
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
