@@ -8,7 +8,7 @@
 
 [Cucumber Framework](#cucumber-framework)
 
-[Cucumber Framework Uses In Various fields](#cucumber Framework Uses In Various fields)
+[Cucumber Framework Uses In Various fields](#cucumber-framework-uses-in-various-fields)
 
 [Benefits of using Cucumber Testing Tools](#benefits-of-using-cucumber-testing-tools)
 
@@ -16,7 +16,7 @@
 
 [Ghrekin Scenarios](#ghrekin-scenarios)
 
-[These are the keywords used to write the case in the feature file(Gherkin Scenarios)](#these-are-the-keyword-used-to-write-the-case-in-feature-fileghrekin-scenarios)
+[These are the keywords used to write the case in the feature file](#these-are-the-keywords-used-to-write-the-case-in-the-feature-file)
 
 [Benefits of BDD in Cucumber Framework](#benefits-of-bdd-in-cucumber-framework)
 
