@@ -334,7 +334,7 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
 
     Given I have first numbers<br>
     And I have Second number<br>
-    When i add the two number<br>
+    When I add the two number<br>
     Then I should see some result<br>
 
     ### The output should be 
