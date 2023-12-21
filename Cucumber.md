@@ -40,8 +40,8 @@
 
 # Overview
 
-* Cucumber is a free tool for testing computer software. It uses a language that is easy for everyone to understand, even if they don't know much about technology. With Cucumber, you can write tests that describe how the software should behave. This helps people like developers, testers, and others work together better.
-*  The language Cucumber uses is called Gherkin, and it uses words like "Given," "When," "Then," "And," and "But" to explain each step in a test. Cucumber is good for different types of teams because it lets everyone be part of creating and maintaining tests.
+* Cucumber is a free and open-source tool that supports behavior-driven development (BDD) for software testing. It uses a language that is easy for everyone to understand, even if they don't know much about technology. With Cucumber, you can write tests that describe how the software should behave. This helps people like developers, testers, and others work together better.
+*  The language Cucumber uses is called Gherkin, and it uses keywords like "Given," "When," "Then," "And," and "But" to explain each step in a test. Cucumber is good for different types of teams because it lets everyone be part of creating and maintaining tests.
 *  The tests are written in a programming language like Ruby, and they can be connected to other testing tools. Cucumber helps make sure that the software does what it's supposed to do, and the tests can also be used as a type of living document to understand how the software works.
 
 #  Cucumber Framework
@@ -203,9 +203,9 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=jammy
 
 
-# installation Of VS Code
+# Installation of VS Code
 
-* there are many method of insatlling vs code in Ubantu Linux one is given below
+* There are many method of insatlling vs code in Ubuntu Linux one is given below
 
 *  Using .deb package
 
@@ -220,7 +220,7 @@ UBUNTU_CODENAME=jammy
 ```
    $ sudo apt install ./(FileName).deb
 ```
-* After complition of installation open the VS Code by command given below.
+* After completion of installation open the VS Code by command given below.
 
 ```
 $ code .
@@ -235,9 +235,9 @@ $ code .
 
 <br>
 
- # 1. Install Cucumber Language Support:
+ # Install Cucumber Language Support:
 
- ### 2. Open Visual Studio Code.
+ ### 1. Open Visual Studio Code.
 
 
 * Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of
@@ -260,17 +260,17 @@ Feature: My Feature
 Scenario: My Scenario<br>
 Given I have some precondition<br>
 When I perform some action<br>
-Then I should see some result<br>
+Then I should see some results<br>
 
 ### 4. Install Cucumber Step Definition Generator
 
 * Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of
 the window.
 
-* Search for Cucumber Step Definition Generator .
+* Search for Cucumber Step Definition Generator.
 * Install the extension.
 
-### 5.Change the settings in step definitions generator
+### 5. Change the settings in the step definitions generator
 * Access the settings and search for Step Definition Generator.
 Modify the desired setting value.<br>
 Save the updated settings.
@@ -334,7 +334,7 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
 
     Given I have first numbers<br>
     And I have Second number<br>
-    When When i add the two number<br>
+    When i add the two number<br>
     Then I should see some result<br>
 
     ### The output should be 
