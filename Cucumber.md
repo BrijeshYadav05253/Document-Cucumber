@@ -205,7 +205,7 @@ UBUNTU_CODENAME=jammy
 
 # Installation of VS Code
 
-* There are many method of insatlling vs code in Ubuntu Linux one is given below
+* There are many method of installing vs code in Ubuntu Linux one is given below
 
 *  Using .deb package
 
