@@ -20,7 +20,7 @@
 
 [Benefits of BDD in Cucumber Framework](#benefits-of-bdd-in-cucumber-framework)
 
-[The below image describes a simple BDD operation –](#the-below-image-describes-a-simple-bdd-operation-–)
+[The below image describes a simple BDD operation](#the-below-image-describes-a-simple-bdd-operation)
 
 [Limitations of Behavior-driven development](#limitations-of-behavior-driven-development)
 
@@ -147,7 +147,7 @@ Using Cucumber for Automation in Behavior-Driven Development (BDD) means writing
   
 * The improvement in the quality of code results in reduced costs of maintenance and also minimizes the project’s associated risks.
   
-# The below image describes a simple BDD operation –
+# The below image describes a simple BDD operation
 
 ![image](https://github.com/BrijeshYadav05253/Document-Cucumber/assets/138758351/4e6e269a-48cd-4b68-b209-8698d3bda88a)
 
