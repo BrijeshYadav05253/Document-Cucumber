@@ -175,6 +175,7 @@ Using Cucumber for Automation in Behavior-Driven Development (BDD) means writing
 
   * Visual Studio code install
   * Node.js and npm (Node Package Manager) installed
+  * Java needs to be installed version(SE-8) and Maven-version 3.3.1 or higher. 
  
  # Environment
 
