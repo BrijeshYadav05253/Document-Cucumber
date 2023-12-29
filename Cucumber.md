@@ -323,7 +323,7 @@ npm install --save-dev @types/cypress-cucumber-preprocessor
 
 
 
-# Examples of scenarios.
+# Example of scenario
 
 * Adding two numbers
   
