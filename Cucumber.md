@@ -203,10 +203,23 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 <br>
 UBUNTU_CODENAME=jammy
 
+# Configuration needs to run Cucumber Framework
+
+* A minimum of 4 to 8 gigabytes of RAM is required.
+* A minimum of 20 to 30 gigabytes of free storage is required.
+* A minimum multicore processor is required to run the Cucumber Framework.
+
+### My system configuration
+
+* Model name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+* RAM size is 8 GB
+* Storage 256 GB
+
+
 
 # Installation of VS Code
 
-* There are many method of installing vs code in Ubuntu Linux one is given below
+* There are many methods of installing vs code in Ubuntu Linux one is given below
 
 *  Using .deb package
 
@@ -216,12 +229,12 @@ UBUNTU_CODENAME=jammy
 
    ### Install the package:
 
-   * Open the folder where the package is downloaded. And then open the terminal inside the folder and run the below command.
+   * Open the folder where the package is downloaded. Then open the terminal inside the folder and run the below command.
      <br>
 ```
    $ sudo apt install ./(FileName).deb
 ```
-* After completion of installation open the VS Code by command given below.
+* After completion of installation open the VS Code by the command given below.
 
 ```
 $ code .
@@ -229,7 +242,7 @@ $ code .
 
 # Installation of node.js
 
-* installing Node.js by using command
+* installing Node.js by using the command
   ```
   $ sudo snap install node --classic
   ```
