@@ -34,7 +34,7 @@
 
 [Installation of node.js](#installation-of-nodejs)
 
-[Examples of scenarios](#examples-of-scenarios)
+[Example of scenario](#example-of-scenario)
 
 
 
