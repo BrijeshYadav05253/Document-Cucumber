@@ -28,6 +28,8 @@
 
 [Environment](#environment)
 
+[Configuration](#configuration-needs-to-run-cucumber-framework)
+
 [Installation Of VS Code](#installation-of-vs-code)
 
 [Installation of node.js](#installation-of-nodejs)
